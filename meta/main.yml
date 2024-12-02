@@ -11,16 +11,16 @@ galaxy_info:
   min_ansible_version: "2.1"
 
   galaxy_tags:
-      - security
-      - ssh
-      - installer
-      - install
-      - sudo
-      - sysadmin
-      - setup
-      - base
-      - installation
-      - network
-      - hardening
+    - security
+    - ssh
+    - installer
+    - install
+    - sudo
+    - sysadmin
+    - setup
+    - base
+    - installation
+    - network
+    - hardening
 
 dependencies: []

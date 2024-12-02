@@ -3,7 +3,7 @@
   ansible.builtin.copy:
     src: "hardening.conf"
     dest: "/etc/ssh/sshd_config.d/maxvalue_hardening.conf"
-    mode: 0640
+    mode: "0640"
     validate: 'sshd -T -f %s'
   notify: Restart SSH
 ...
